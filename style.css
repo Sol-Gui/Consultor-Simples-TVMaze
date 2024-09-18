@@ -1,0 +1,56 @@
+body {
+  background-image: url("imgs/body-background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-bottom  : 3%;
+  background-color: rgb(32,32,32);
+  opacity: 99%;
+}
+
+.main-board h1 {
+  color: white;
+  font-size: 3em;
+}
+
+.main-board input {
+  width: 40em;
+  max-width: 90%;
+  height: 2.5em;
+  flex-direction: row;
+}
+
+.main-board button {
+  width: 20em;
+  height: 3em;
+  max-width: 45%;
+  margin-top: 1em;
+  color: white;
+  background-color: green;
+  border-color: aqua;
+}
+
+.display-board {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+  width: 70%;
+  padding: 5%;
+  padding-bottom: 4%;
+  background-color: #CFCFCF;
+  opacity: 97%;
+  overflow: auto;
+}
